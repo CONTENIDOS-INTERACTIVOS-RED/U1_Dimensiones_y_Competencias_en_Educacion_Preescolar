@@ -226,7 +226,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-8
               h2.mb-4(data-aos="flip-up") Estrategias pedagógicas para integrar las inteligencias múltiples
-              p.mb-4(data-aos="fade-right") Los invitamos a leer el documento Estrategias pedagógicas para integrar las inteligencias múltiples , donde se analizan enfoques innovadores para diseñar experiencias de aprendizaje inclusivas en preescolar. A través de actividades adaptadas a las distintas formas de aprender, este enfoque fomenta la motivación, el aprendizaje significativo y la equidad en el aula.
+              p.mb-4(data-aos="fade-right") Los invitamos a leer el documento Estrategias pedagógicas para integrar las inteligencias múltiples, donde se analizan enfoques innovadores para diseñar experiencias de aprendizaje inclusivas en preescolar. A través de actividades adaptadas a las distintas formas de aprender, este enfoque fomenta la motivación, el aprendizaje significativo y la equidad en el aula.
 
               a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")

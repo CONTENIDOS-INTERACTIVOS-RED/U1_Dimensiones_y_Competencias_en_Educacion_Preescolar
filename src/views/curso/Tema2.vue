@@ -1,19 +1,26 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'2. Estándares Básicos de Aprendizaje (DBA) en Preescolar'")
+    BannerInterno(:subTitulo="'2. Derechos básicos de aprendizaje (DBA)'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
+
+
+      .row.mb-4
+        .col-lg-8
+          .bg-color-1.p-4.mb-4(data-aos="fade-left")
+            .row.align-items-start
+              .col-lg-auto
+                img(src="@/assets/curso/tema2/1b.svg", style="max-width: 90px").mx-auto
+              .col-lg
+                p.mb-0 En el marco de la normatividad curricular, es importante distinguir entre dos referentes clave del Ministerio de Educación Nacional (MEN): los Estándares Básicos de Competencias y los Derechos Básicos de Aprendizaje (DBA). Los Estándares Básicos de Competencias, emitidos en 2006 por el Ministerio de Educación Nacional, orientan lo que deben saber y saber hacer los estudiantes en el ciclo de educación básica en áreas como lenguaje, matemáticas y ciencias.
+
+      
+          p(data-aos="fade-left") Por su parte, los Derechos Básicos de aprendizaje (DBA) son una herramienta que complementa estos estándares, especialmente para grados iniciales (para los cuales aún no se han emitido estándares básicos), proponiendo aprendizajes esenciales que facilitan la planeación pedagógica y responden a los planteamientos de formación integral que orientan los procesos que atienden a la primera infancia en las diferentes dimensiones del desarrollo. Estos últimos fueron emitidos también por el Ministerio de Educación Nacional en 2016
+      
+        .col-lg-4
+          figure
+            img(src="@/assets/curso/tema2/2b.png", data-aos="zoom-in")
+      
   
-      .bg-color-2.mb-4(data-aos="fade-up")
-        .row.justify-content-center.align-items-center
-          .col-lg-auto
-            figure
-              img(src='@/assets/curso/tema2/1.png', alt='')
-          .col-lg
-            .p-4
-              p.mb-0(data-aos="fade-up") Los Estándares Básicos de Aprendizaje (DBA) son fundamentales para estructurar los objetivos educativos y guiar el desarrollo de competencias en los estudiantes. A través de ellos, se establecen los aprendizajes fundamentales que los niños deben alcanzar en preescolar, asegurando que cada uno reciba las herramientas necesarias para su crecimiento integral.
-
-
-
       
       .bg-full-width-2.bg-fondo-3
         .px-4.px-md-5.pt-4.pt-md-5

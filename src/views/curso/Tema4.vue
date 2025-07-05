@@ -10,7 +10,7 @@
               img(src='@/assets/curso/tema3/1.png', alt='')
           .col-lg
             .p-4
-              p.mb-0(data-aos="fade-up") La aplicación de las inteligencias múltiples en el aula preescolar transforma el aprendizaje en un proceso dinámico, inclusivo y lleno de posibilidades. A través de esta teoría, es posible potenciar el desarrollo integral de cada niño y adaptar las estrategias pedagógicas a sus diferentes formas de aprender.
+              p.mb-0(data-aos="fade-up") Los estándares de aprendizaje son una herramienta fundamental para estructurar el desarrollo integral de los niños en esta etapa. Permiten guiar el proceso educativo, asegurando que cada niño adquiera habilidades y conocimientos esenciales para su crecimiento cognitivo, emocional y social. Además, estos estándares se alinean con los lineamientos curriculares, favoreciendo un entorno inclusivo y motivador en el aula preescolar.
 
 
       #t_4_1.titulo-segundo(data-aos="flip-up")
@@ -30,50 +30,50 @@
           p Los principales objetivos de los estándares de aprendizaje son:
         
         .col-lg-4
-          figure
+          figure.d-none.d-lg-block
             img(src="@/assets/curso/tema4/3.png", data-aos="zoom-in")
 
       .bg-full-width.bg-fondo-7
         .px-4.px-md-5.pb-md-3
-          .row.justify-content-center.mb-5
+          .row.justify-content-center
             .col-lg-4
-              figure
+              figure.d-none.d-lg-block
                 img(src='@/assets/curso/tema4/4.png', alt='Profesora con libro')
 
             .col-lg-8              
               SlyderF(columnas="col-12 col-lg-6")
                 .bg-color-white.p-4.h-100.shadow-app
-                  img(src='@/assets/curso/tema4/icon-1.svg' alt='Icono desarrollo integral', style="max-width: 90px").mx-auto
-                  h4.text-center.mb-4 Fomentar el desarrollo integral
+                  img(src='@/assets/curso/tema4/icon-1.svg' alt='Icono desarrollo integral', style="max-width: 90px").mx-auto.mb-3
+                  h4.text-center.mb-2 Fomentar el desarrollo integral
                   p.text-center Garantizan igualdad de oportunidades sin importar las diferencias individuales.
                 
                 .bg-color-white.p-4.h-100.shadow-app
-                  img(src='@/assets/curso/tema4/icon-2.svg' alt='Icono inclusión y equidad', style="max-width: 90px").mx-auto
-                  h4.text-center.mb-4 Promover la inclusión y equidad
+                  img(src='@/assets/curso/tema4/icon-2.svg' alt='Icono inclusión y equidad', style="max-width: 90px").mx-auto.mb-3
+                  h4.text-center.mb-2 Promover la inclusión y equidad   
                   p.text-center Garantizan igualdad de oportunidades sin importar las diferencias individuales.
                 
                 .bg-color-white.p-4.h-100.shadow-app
-                  img(src='@/assets/curso/tema4/icon-3.svg' alt='Icono evaluación', style="max-width: 90px").mx-auto
-                  h4.text-center.mb-4 Facilitar la evaluación y el seguimiento
+                  img(src='@/assets/curso/tema4/icon-3.svg' alt='Icono evaluación', style="max-width: 90px").mx-auto.mb-3
+                  h4.text-center.mb-2 Facilitar la evaluación y el seguimiento
                   p.text-center Permiten monitorear el progreso de los niños en diversas áreas.
                 
                 .bg-color-white.p-4.h-100.shadow-app
-                  img(src='@/assets/curso/tema4/icon-4.svg' alt='Icono coherencia curricular', style="max-width: 90px").mx-auto
-                  h4.text-center.mb-4 Garantizar la coherencia curricular
+                  img(src='@/assets/curso/tema4/icon-4.svg' alt='Icono coherencia curricular', style="max-width: 90px").mx-auto.mb-3
+                  h4.text-center.mb-2 Garantizar la coherencia curricular
                   p.text-center Aseguran una secuencia de aprendizaje ordenada y progresiva.
                 
                 .bg-color-white.p-4.h-100.shadow-app
-                  img(src='@/assets/curso/tema4/icon-5.svg' alt='Icono participación familia', style="max-width: 90px").mx-auto
-                  h4.text-center.mb-4 Impulsar la participación de la familia
+                  img(src='@/assets/curso/tema4/icon-5.svg' alt='Icono participación familia', style="max-width: 90px").mx-auto.mb-3
+                  h4.text-center.mb-2 Impulsar la participación de la familia
                   p.text-center Fortalecen la colaboración entre la escuela y el hogar en el proceso educativo.
 
 
 
-      p(data-aos="fade-left").mb-4 Los estándares de aprendizaje son comparables a un mapa que guía a los docentes en el proceso educativo. Sin ellos, el aprendizaje podría volverse desorganizado y desigual.
+      p.mb-4 Los estándares de aprendizaje son comparables a un mapa que guía a los docentes en el proceso educativo. Sin ellos, el aprendizaje podría volverse desorganizado y desigual.
 
       
       .bg-full-width.bg-color-5.mb-5
-        .px-4.px-md-5
+        .px-4.px-md-5.py-4.py-lg-0
           .row.justify-content-center.align-items-center
             .col-lg-8
               h3.mb-3 Preguntas para la reflexión
@@ -82,7 +82,7 @@
               ul.lista-ul--color
                 li.mb-2
                   i.fas.fa-arrow-circle-right
-                  | #[strong Qué sucedería si no existieran estándares claros de aprendizaje en preescolar?]
+                  | #[strong ¿Qué sucedería si no existieran estándares claros de aprendizaje en preescolar?]
                 
                 li.mb-2
                   i.fas.fa-arrow-circle-right
@@ -218,7 +218,7 @@
                 img(src='@/assets/curso/tema4/12.png', alt='')
             .col-lg-8
               h2.mb-4(data-aos="flip-up") Importancia de los estándares para el desarrollo de habilidades cognitivas y socioemocionales en los niños
-              p.mb-4(data-aos="fade-right") Los invitamos a leer el documento Importancia de los estándares para el desarrollo de habilidades cognitivas y socioemocionales en los niños , donde se analiza cómo los estándares educativos no solo guían el aprendizaje académico, sino que también fomentan el desarrollo integral de los niños. A través de una estructura flexible e inclusiva, estos estándares permiten fortalecer competencias cognitivas, emocionales y sociales esenciales para su crecimiento y bienestar.
+              p.mb-4(data-aos="fade-right") Los invitamos a leer el documento Importancia de los estándares para el desarrollo de habilidades cognitivas y socioemocionales en los niños, donde se analiza cómo los estándares educativos no solo guían el aprendizaje académico, sino que también fomentan el desarrollo integral de los niños. A través de una estructura flexible e inclusiva, estos estándares permiten fortalecer competencias cognitivas, emocionales y sociales esenciales para su crecimiento y bienestar.
 
               a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
